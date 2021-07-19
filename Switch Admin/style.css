@@ -1,0 +1,54 @@
+.shell {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 100px;
+  white-space: nowrap;
+}
+
+#top-navigation {
+  float: right;
+  white-space: nowrap;
+  color: black;
+  padding-top: 15px;
+}
+#top-navigation a {
+  color: blue;
+  font-size: larger;
+}
+
+#navigation {
+  height: 36px;
+}
+
+.table {
+}
+.table th {
+  background: #fffdfa url(images/th.gif) repeat-x 0 0;
+  color: #818181;
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: solid 1px #d2d1cb;
+}
+.table td {
+  background: #fbfcfc;
+  border-bottom: solid 1px #e0e0e0;
+  padding: 8px 10px;
+}
+.table tr.odd td {
+  background: #f8f8f8;
+}
+.table tr:hover td {
+  background: #fff9e1;
+}
+.table a.ico {
+}
+
+#good {
+  background-color: #fffac2;
+  border: solid 1px #dbd6a2;
+  color: #5e5c40;
+  background-image: url(images/msg-ok.gif);
+}
